@@ -17,16 +17,13 @@ El proyecto se organiza de la siguiente manera:
   - `Proyecto/`: Contiene los archivos de configuración del proyecto.
   - `App/`: Aplicación principal con modelos, vistas y templates.
 - `manage.py`: Script para interactuar con el proyecto Django.
+- `requirements.txt`: Dependencias necesarias para ejecutar el proyecto.
 
 ## 📝 Nota
 
 La estructura de los códigos y el orden de los mismos no es la mejor; parte de esto es mejorar este aspecto para futuros códigos.
 
-## Configuración del Entorno de Desarrollo
+> [!CAUTION]
+> No olvides instalar las dependencias listadas en el archivo `requirements.txt` antes de ejecutar el proyecto.
 
-Para configurar el entorno de desarrollo en tu máquina local, sigue estos pasos:
 
-1. **Clonar el repositorio**:
-
-   ```bash
-   git clone https://github.com/Aldo-Solares/Mi_Web.git
