@@ -23,6 +23,9 @@ El proyecto se organiza de la siguiente manera:
 
 La estructura de los códigos y el orden de los mismos no es la mejor; parte de esto es mejorar este aspecto para futuros códigos.
 
+> [!NOTE]
+> Este código lo ejecuté en una máquina virtual para aislar el proyecto de mis instalaciones globales.
+
 > [!CAUTION]
 > No olvides instalar las dependencias listadas en el archivo `requirements.txt` antes de ejecutar el proyecto.
 
