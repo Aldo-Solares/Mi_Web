@@ -1,0 +1,14 @@
+{% extends "base/index.html"%} {% block content%}
+
+<div class="barra-superior">
+  <a href="{% url 'tareas' %}" style="text-decoration: none">&#8592; Volver</a>
+</div>
+
+<div class="cuerpo-tarjeta">
+  <form method="POST" action="">
+    {% csrf_token %} {{form.as_p}}
+    <input class="boton" type="submit" value="Enviar" />
+  </form>
+</div>
+
+{% endblock content%}
