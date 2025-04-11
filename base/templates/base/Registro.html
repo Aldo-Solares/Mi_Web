@@ -6,16 +6,16 @@
 
 <div class="cuerpo-tarjeta">
   <form method="POST">
-    {% csrf_token %}
+    {% csrf_token %} {{ form.non_field_errors }}
     <label for="">{{form.username.label}}</label>
-    {{form.username}}
+    {{form.username}} {{form.username.errors}}
     <label for="">{{form.password1.label}}</label>
-    {{form.password1}}
+    {{form.password1}} {{form.password1.errors}}
     <label for="">{{form.password2.label}}</label>
-    {{form.password2}}
+    {{form.password2}} {{form.password2.errors}}
     <input class="boton" type="submit" value="Registrar" style="margin-top: 10px" />
   </form>
 
-  <a class="boton" href="{% url 'login' %}" style="font-size: 18px; width: auto">¿Ya tienes cuenta?</a>
+  <a href="{% url 'login' %}">¿Ya tienes cuenta?</a>
 </div>
 {% endblock content%}
